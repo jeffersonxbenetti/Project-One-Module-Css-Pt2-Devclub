@@ -1,40 +1,72 @@
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 
     .box-left {
+        padding-left: 30px;
+    }
+
+    .box-rigth header {
+        padding: 24px 10px;
+    }
+
+    .box-rigth header a {
+        font-size: 24px;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .box-left h1 {
+        font-size: 60px;
+    }
+
+    .box-left p {
+        font-size: 18px;
+        width: 450px;
+    }
+
+    .box-rigth header a {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .box-left {
         margin: 0;
+        padding: 10px 0;
         display: block;
         width: 100vw;
         height: auto;
     }
 
-    h1 {
+    .box-left h1 {
         text-align: center;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 52px;
         width: 268px;
-        margin: 58px auto 0 auto;
+        margin: 0 auto;
     }
 
-    p {
+    .box-left p {
         text-align: center;
         font-size: 14px;
-        line-height: 24px;
-        width: 296px;
+        line-height: 20px;
         margin: 15px auto;
+        width: auto;
     }
 
     button {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 58px;
     }
 
     .box-rigth {
         display: block;
         position: static;
-        width: 100vh;
-        height: 50%;
+        width: 100vw;
+        height: auto;
+        padding: 30px;
     }
 
     header {
@@ -44,9 +76,8 @@
     
     img {
         position: static;
-        width: 271px;
-        height: 322px;
-        margin: 46px 52px;        
+        width: 255px;
+        margin: 0 auto;
+        display: block;    
     }
-
 }
