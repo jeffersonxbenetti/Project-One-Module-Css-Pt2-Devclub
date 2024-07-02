@@ -33,3 +33,13 @@
   <h4 align="center">Tela móvel</h4>
   <img src="https://github.com/jeffersonxbenetti/Project-One-Module-Css-Pt2-Devclub/blob/main/src/img/screenshot-on-cell-phone.png?raw=true" width="150px">
 </div>
+<br>
+
+###
+
+<h3 align="center">Link do Site</h3>
+<div align="center">
+  <a href="https://jeffersonxbenetti.github.io/Project-One-Module-Css-Pt2-Devclub/">
+    <img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg" />
+  </a>
+</div>
